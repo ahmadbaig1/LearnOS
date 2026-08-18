@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "LearnOS",
-    "slug": "LearnOS",
-    "version": "1.0.0",
+    "slug": "learnos",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ahmadbaig1.learnos",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dd6344d0-8826-415d-8b28-07910c50bbbd"
+      }
+    },
+    "owner": "damha"
   }
 }

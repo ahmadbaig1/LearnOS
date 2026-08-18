@@ -66,9 +66,9 @@ export default function App() {
           tabBarStyle: {
             backgroundColor: '#0d0d1a',
             borderTopColor: '#ffffff10',
-            paddingBottom: Platform.OS === 'ios' ? 20 : 8,
+            paddingBottom: Platform.OS === 'ios' ? 20 : 24,
             paddingTop: 8,
-            height: Platform.OS === 'ios' ? 88 : 64,
+            height: Platform.OS === 'ios' ? 88 : 80,
           },
           tabBarLabelStyle: { fontSize: 11, fontWeight: '600' },
           headerStyle: { backgroundColor: '#0d0d1a' },
